@@ -1,10 +1,14 @@
+import Head from 'next/head';
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
+      <Head>
+        <title>Next.js with Mantine</title>
+      </Head>
       <h1>Next.js with Mantine</h1>
-    </div>
+    </>
   );
 };
 
